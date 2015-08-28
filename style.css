@@ -1,8 +1,52 @@
 html, body {
   margin: 0;
   padding: 0;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 26px;
+}
+
+body {
+	background-image: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/KLYLIW8AZY.jpg');
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .container {
-	max-width: 980px;
+	max-width: 1200px;
+	padding: 20px 0 20px 0;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-family: 'Rock Salt', cursive;
+	font-size: 30px;
+}
+
+.pull-right {
+	float: right;
+	padding-top: 20px;
+}
+
+.nav ul {
+	display: inline-block;
+	font-weight: bold;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.nav-pills li a {
+	border-radius: 0px;
+	color: white;
+}
+
+
+.nav-pills li a:hover {
+	background-color: #EEA236;
+	color: white;
+}
+
+img {
+	width: 100%;
+	padding-bottom: 20px;
 }
